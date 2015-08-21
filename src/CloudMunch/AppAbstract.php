@@ -22,7 +22,7 @@ abstract class AppAbstract {
 	 abstract function process($processparameters);
 	function getInput() {
 		$argArray = $_SERVER['argv'];
-		echo sizeof($argArray);
+		
 		for ($i = 0; $i < sizeof($argArray); $i++) {
 
 			switch ($argArray[$i]) {
